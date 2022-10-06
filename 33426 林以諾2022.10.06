@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "請輸入三個依序相減的數字\n";
+
+
+    cout << "數字一";
+
+    int num1, num2 ,num3;
+    cin >> num1;
+
+    cout << "數字二";
+
+    cin >> num2;
+
+    cout << "數字三";
+    
+    cin >> num3;
+    cout << "相減結果為" << num1-num2-num3;
+}
